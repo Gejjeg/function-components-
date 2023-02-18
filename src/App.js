@@ -1,7 +1,11 @@
+import { Sum } from "./Sum";
 import { Welcome } from "./Welcome";
 
 export function App() {
   return (
-    <Welcome name="Bassey"/>
+    <div>
+      <Welcome name="Bassey"/>
+      <Sum />
+    </div>
   )
 };
